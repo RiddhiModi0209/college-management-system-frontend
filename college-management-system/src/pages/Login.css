@@ -1,0 +1,146 @@
+* {
+  font-family: "Inter", sans-serif; 
+  /* overscroll-behavior-x: none;  */
+  overscroll-behavior: none;
+  overflow-x: hidden;
+   
+}
+
+.login-container {
+  display: flex;
+  height: 100vh; 
+}
+
+.left-panel {
+  width: 50%;
+  background-color: #2e6173;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .logo-container1 {
+  display: flex;
+  justify-content: center;
+} */
+
+.logo-circle1 {
+  width: 70px;
+  height: 60px;
+  background-color: #eef2ff; 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+ 
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  display: flex; 
+  justify-content: start; 
+  margin-left: 10px;
+
+}
+
+.college-image {
+  width: 80%;
+  height: 60vh;
+  border-radius: 10px;
+}
+
+
+.right-panel {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+}
+/* 
+.logo {
+  width: 50px;
+  margin-bottom: 10px;
+} */
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.options {
+  display: flex;
+  justify-content: end;
+  font-size: 14px;
+}
+
+.loginsubmit {
+  width: 100%;
+  padding: 10px;
+  background-color: #005877;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #07496799;
+} 
+.text-center{
+    display: flex;
+   justify-content: center;
+}
+.error-message {
+  color: red;
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+}
+
+.error-input {
+  border: 1px solid red;
+}
+
+
+
+/* @media screen and (max-width: 768px) {
+  .left-panel {
+    display: none !important;
+  }
+
+  .right-panel {
+    width: 100%;
+  }
+} */ 
+
+@media screen and (max-width: 768px) {
+  .left-panel {
+    display: none !important;
+  }
+
+  .right-panel {
+    width: 100% !important; 
+  }
+
+  .col-md-6 {
+    width: 100% !important; 
+  }
+}
