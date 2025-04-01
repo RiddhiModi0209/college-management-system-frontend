@@ -1,59 +1,84 @@
-.add-admin-container {
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 20px;
+body {
     background-color: #f8f9fa;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Poppins", sans-serif;
   }
   
-  .add-admin-container h2 {
+  .container {
+    max-width: 1200px;
+    background: #fff; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #212529;
     text-align: center;
     margin-bottom: 20px;
-    color: #2e6173;
   }
   
-  .form-group {
-    margin-bottom: 15px;
+  .breadcrumb {
+    font-size: 14px;
+    color: #6c757d;
   }
   
-  label {
+  .facultycard {
+    border-radius: 8px;
+    padding: 20px;
+    background: #3B6D70; 
+  }
+  
+  .form-label {
     font-weight: bold;
-    color: #2e6173;
+    color: #333; 
+
+  }
+  
+  .input-group .form-control {
+    border-right: 0;
+  }
+  
+  .input-group-text {
+    background: #fff;
+    border-left: 0;
   }
   
   .form-control {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    transition: all 0.3s;
   }
   
-  .form-select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
   }
-  
-  .btn-primary {
+  .bluebtn { 
+    background-color: #3B6D70;
+    font-size: 18px;
+    font-weight: 500;  
     width: 100%;
-    padding: 10px;
-    background-color: #005877;
+    padding: 14px 12px; 
+    border-radius: 8px;  
+    transition: background 0.3s;
     border: none;
     color: white;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
+    text-transform: uppercase; 
   }
   
-  
+  .bluebtn:hover {
+    background-color: #173d5a; 
+  }
+   
+/*   
   .btn-primary:hover {
-    background-color: #1d4756;
-  }
+    background: #0056b3; */
   
-  .error-message {
-    color: red;
-    font-size: 14px;
+  @media (max-width: 768px) {
+    .container {
+      max-width: 90%;
+    }
   }
   
