@@ -51,7 +51,7 @@ const Faculty = () => {
             <span className="input-group-text"><FaLock /></span>
           </div>
         </div>
-        <button type="submit" className="bluebtn">Submit</button>
+        <button type="submit" className="bluebtn">Submit </button>
       </form>
     </div>
   );
